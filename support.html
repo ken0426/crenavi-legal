@@ -47,7 +47,7 @@
     </li>
   </ul>
 
-  <p class="email-note">送信先: <code id="email-address">todakento.work@gmail.com</code></p>
+  <p class="email-note">送信先: <code id="email-address">kentocodelab@gmail.com</code></p>
   <button class="copy-btn" type="button" id="copy-btn">メールアドレスをコピー</button>
 
   <script>
@@ -58,7 +58,7 @@
     document.querySelectorAll('button.item').forEach(function (btn) {
       btn.addEventListener('click', function () {
         var subject = encodeURIComponent(btn.dataset.subject);
-        window.location.href = 'mailto:todakento.work@gmail.com?subject=' + subject;
+        window.location.href = 'mailto:kentocodelab@gmail.com?subject=' + subject;
       });
     });
 
